@@ -14,6 +14,9 @@ declare module 'vue' {
   export interface GlobalComponents {
     VButton: (typeof import('@mylib/ui'))['VButton'];
     VDialog: (typeof import('@mylib/ui'))['VDialog'];
+    VCard: (typeof import('@mylib/ui'))['VCard'];
+    VGradient: (typeof import('@mylib/ui'))['VGradient'];
+    VPage: (typeof import('@mylib/ui'))['VPage'];
   }
 }
 

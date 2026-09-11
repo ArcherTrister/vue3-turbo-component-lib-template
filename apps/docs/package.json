@@ -13,7 +13,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@mylib/typescript-config": "workspace:*",
     "@mylib/directives": "workspace:*",
     "@mylib/hooks": "workspace:*",
     "@mylib/ui": "workspace:*",
@@ -21,6 +20,7 @@
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@mylib/typescript-config": "workspace:*",
     "sass": "^1.83.0",
     "typescript": "^5.7.2",
     "vitepress": "^1.5.0",

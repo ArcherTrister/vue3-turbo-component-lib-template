@@ -22,7 +22,7 @@
 
 项目采用 Monorepo 架构，主要包含以下部分：
 
-- `packages/lint-configs`：包含所有配置相关的包，例如 ESLint、Prettier、Stylelint、Commitlint 和 TypeScript 配置。这些配置包确保代码风格的一致性和高质量。
+- `packages/configs`：包含所有配置相关的包，例如 ESLint、Prettier、Stylelint、Commitlint 和 TypeScript 配置。这些配置包确保代码风格的一致性和高质量。
 - `packages/hooks`：包含所有自定义 Hooks 的包。
 - `packages/directives`：包含所有指令的包。
 - `packages/utils`：包含所有工具函数的包。

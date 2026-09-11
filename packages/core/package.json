@@ -1,0 +1,35 @@
+{
+  "name": "@mylib/core",
+  "version": "1.0.0",
+  "description": "@mylib core library",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "rm -rf dist && rollup -c rollup.config.mjs",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "publish": "pnpm publish"
+  },
+  "devDependencies": {
+    "@mylib/typescript-config": "workspace:*",
+    "rollup-plugin-esbuild": "6.1.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.0.0",
+    "pinia": "^2.0.0",
+    "rollup": "^4.28.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.0.0",
+    "pinia": "^2.0.0"
+  }
+}

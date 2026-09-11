@@ -1,9 +1,9 @@
 import type { App } from 'vue';
-import { VButton, VDialog } from './components';
+import { VButton, VDialog, VCard, VGradient, VPage } from './components';
 
 export { version } from './version';
 
-const components = [VButton, VDialog];
+const components = [VButton, VDialog, VCard, VGradient, VPage];
 
 function install(app: App) {
   components.forEach((component) => {

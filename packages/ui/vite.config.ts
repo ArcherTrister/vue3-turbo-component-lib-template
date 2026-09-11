@@ -36,6 +36,12 @@ export default defineConfig({
         // 复制文件global.d.ts到dist里
         const srcPath = path.resolve(import.meta.dirname, 'src/types/global.d.ts');
         const destPath = path.resolve(import.meta.dirname, 'dist/global.d.ts');
+        // 如果目标文件夹不存在，则创建
+        let pathExists = path.resolve(import.meta.dirname, "dist");
+        if(!fs.existsSync(pathExists))
+        {
+          fs.mkdirSync(pathExists);
+        }
         fs.copyFileSync(srcPath, destPath);
       },
     },

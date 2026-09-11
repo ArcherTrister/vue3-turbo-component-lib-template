@@ -24,7 +24,7 @@ This is a modern component library template based on `Turborepo + Vue 3.5 + Type
 
 The project uses Monorepo architecture and mainly contains the following parts:
 
-- `packages/lint-configs`: Contains all configuration-related packages, such as ESLint, Prettier, Stylelint, Commitlint, and TypeScript configurations. These configuration packages ensure code style consistency and high quality.
+- `packages/configs`: Contains all configuration-related packages, such as ESLint, Prettier, Stylelint, Commitlint, and TypeScript configurations. These configuration packages ensure code style consistency and high quality.
 - `packages/hooks`: Contains all custom Hooks packages.
 - `packages/directives`：Contains all directive packages。
 - `packages/utils`: Contains all utility function packages.

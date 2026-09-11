@@ -5,6 +5,10 @@
       "path": "apps/docs",
     },
     {
+      "name": "@mylib/web",
+      "path": "apps/web",
+    },
+    {
       "name": "@mylib/playground",
       "path": "playground",
     },
@@ -23,6 +27,14 @@
     {
       "name": "@mylib/directives",
       "path": "packages/directives",
+    },
+    {
+      "name": "@mylib/core",
+      "path": "packages/core",
+    },
+    {
+      "name": "@mylib/identity",
+      "path": "packages/identity",
     },
   ],
 }
